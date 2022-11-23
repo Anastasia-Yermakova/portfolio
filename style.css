@@ -21,6 +21,8 @@ h3 {
 
 :root {
   --main-color: #6c63ff;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --border-radius: 4px;
 }
 a {
   color: var(--main-color);
@@ -40,6 +42,7 @@ a {
   text-align: center;
   max-width: 340px;
   margin: 0 10px;
+  border-radius: var(--border-radius);
 }
 
 .buttons {
@@ -51,8 +54,8 @@ a {
 .contact {
   background-color: var(--main-color);
   color: white;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-  border-radius: 4px;
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
   padding: 20px 15px;
   text-decoration: none;
   margin: 20px;
