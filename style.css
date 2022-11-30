@@ -1,6 +1,5 @@
 body {
-  text-align: center;
-  margin: 60px auto;
+  margin-bottom: 60px;
 }
 
 h1 {
@@ -17,6 +16,12 @@ h3 {
   color: #4d4d4d;
   font-size: 24px;
   margin: 0;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-top: 16px;
 }
 
 :root {
@@ -46,6 +51,11 @@ a {
 }
 
 .buttons {
+  margin-top: 40px;
+  display: flex;
+}
+
+.main {
   margin-top: 40px;
   display: flex;
   justify-content: center;
