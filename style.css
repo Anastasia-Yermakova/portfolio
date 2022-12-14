@@ -88,3 +88,35 @@ a {
   font-size: 28px;
   text-decoration: none;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 72px;
+  }
+}
+
+@media (max-width: 376px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 12px;
+  }
+  a {
+    font-size: 14px;
+  }
+  .greeting {
+    font-size: 24px;
+  }
+  .contact,
+  .about {
+    padding: 18px 12px;
+    margin: 15px;
+  }
+  .email {
+    font-size: 16px;
+  }
+}
